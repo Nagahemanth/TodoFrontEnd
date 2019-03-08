@@ -1,0 +1,16 @@
+
+<div class="container">
+    {{message}}<br>
+    you can manage your todos <a routerLink="/todo">here.</a>
+</div>
+
+<div class="container">
+    Please click here to get your customized message.
+    <button class="btn btn-success" (click)="getCustomizedMessage()">Click me to get a message</button>
+</div>
+
+
+<div class="container">
+    Customized message is : {{customeMessage}}
+</div>
+
